@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Claus is Coming to Town!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Montserrat:wght@400;600&family=Dancing+Script:wght@700&display=swap');
+
+        body {
+            background-color: #1a4d2e; /* Deep Forest Green */
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+        
+        .poster {
+            background: #fdfaf4; /* Parchment paper color */
+            background-image: url('https://www.transparenttextures.com/patterns/light-paper-fibers.png');
+            width: 90%;
+            max-width: 750px;
+            text-align: center;
+            border: 2px solid #c8a35f;
+            outline: 20px solid #c42d33; /* Candy Apple Red */
+            box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+            position: relative;
+            padding-bottom: 40px;
+        }
+        
+        .poster-top-border {
+            padding: 20px;
+            background-color: #1a4d2e;
+            margin: 0 0 30px 0;
+            color: #fff;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5em;
+        }
+
+        .sub-heading {
+            font-size: 2.2em;
+            color: #c42d33;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            color: #1a4d2e;
+            font-size: 8em;
+            margin: 0;
+            line-height: 1;
+            text-transform: uppercase;
+            text-shadow: 5px 5px 0px #d4af37, 10px 10px 0px rgba(0,0,0,0.1);
+        }
+        
+        .santa-image-container {
+            margin: 40px auto;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            padding: 15px;
+            background: repeating-linear-gradient(
+                45deg,
+                #c42d33,
+                #c42d33 10px,
+                #ffffff 10px,
+                #ffffff 20px
+            );
+            box-shadow: 0 0 0 10px #1a4d2e;
+        }
+        
+        .santa-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+
+        .details {
+            margin: 30px 20px;
+            border-top: 2px dashed #d4af37;
+            border-bottom: 2px dashed #d4af37;
+            padding: 20px 0;
+        }
+        
+        .details p {
+            font-size: 1.5em;
+            color: #333;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        .details span {
+            font-weight: 400;
+            color: #c42d33;
+        }
+        
+        .activities {
+            padding: 20px;
+            margin: 30px 40px;
+        }
+        
+        .activities h3 {
+            font-family: 'Oswald', sans-serif;
+            color: #1a4d2e;
+            font-size: 2.5em;
+            margin: 0 0 15px 0;
+            text-transform: uppercase;
+        }
+        
+        .activities p {
+            margin: 0;
+            font-size: 1.3em;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .holly {
+            color: #c42d33;
+            font-size: 0.8em;
+        }
+
+        .footer-text {
+            margin-top: 20px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.8em;
+            font-weight: 700;
+            color: #c42d33;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <div class="poster-top-border">
+            A Magical Christmas Event
+        </div>
+
+        <p class="sub-heading">Get Ready To Meet</p>
+        <h1>Santa Claus</h1>
+        
+        <div class="santa-image-container">
+            <img src="https://images.theconversation.com/files/566439/original/file-20231218-18-5qoql0.jpg?ixlib=rb-4.1.0&rect=361%2C0%2C3231%2C2152&q=50&auto=format&w=768&h=512&fit=crop&dpr=2">
+        </div>
+
+        <div class="details">
+            <p><strong>DATE:</strong> <span>Saturday, December 6th</span></p>
+            <p><strong>TIME:</strong> <span>2:00 PM - 5:00 PM</span></p>
+            <p><strong>LOCATION:</strong> <span>The Town's Winter Wonderland</span></p>
+        </div>
+        
+        <div class="activities">
+            <h3>Festive Fun Awaits!</h3>
+            <p><span class="holly">●</span> Hot Cocoa & Cookies <span class="holly">●</span><br>
+               Story Time with Santa<br>
+               <span class="holly">●</span> Special Gifts for Every Child <span class="holly">●</span></p>
+        </div>
+        
+        <p class="footer-text">Don't be late for a very important date!</p>
+    </div>
+
+</body>
+</html>
